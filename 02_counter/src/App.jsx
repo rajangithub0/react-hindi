@@ -1,6 +1,4 @@
 import { useState } from 'react';
-
-
 import './App.css'
 
 function App() {
@@ -15,6 +13,9 @@ function App() {
   }
 
   const removeValue = () => {
+    if(counter===0){
+      alert('next value is negtive')
+    }
     setCounter(counter-1)
   }
 
