@@ -1,20 +1,10 @@
+@import "tailwindcss";
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
-
-/* div{
-  background-image: linear-gradient(90deg,
-        red 0%,
-        orange 16.6%,
-        yellow 33.2%,
-        green 49.8%,
-        blue 66.4%,
-        indigo 82.9%,
-        violet 100%);
-} */
 
 .logo {
   height: 6em;
@@ -28,12 +18,9 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
-button{
- margin-right:10px;
-}
 
 @keyframes logo-spin {
-  from {  
+  from {
     transform: rotate(0deg);
   }
   to {
